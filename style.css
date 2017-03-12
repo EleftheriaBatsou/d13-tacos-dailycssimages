@@ -1,0 +1,542 @@
+/* Mozilla Firefox */
+/* Opera */
+/* Webkit (Safari/Chrome 10) */
+/* Webkit (Chrome 11+) */
+/* W3C Markup */
+.title {
+  text-align: center;
+}
+
+#footer a:link {
+  color: #000;
+}
+
+#footer a:visited {
+  color: #000;
+}
+
+#footer a:hover {
+  color: #cba231;
+}
+
+body {
+  background: #80DEEA;
+}
+
+.box {
+  position: relative;
+  margin: auto;
+  display: block;
+  /*optional background or border*/
+  margin-top: -2%;
+  width: 600px;
+  height: 420px;
+  background: none;
+}
+
+.plate {
+  position: absolute;
+  top: 5.5%;
+  left: 13%;
+  width: 75%;
+  height: 87%;
+  background: radial-gradient(ellipse farthest-corner at center, #f6f8f9 0%, #e5ebee 50%, #d7dee3 51%, #f5f7f9 100%);
+  border-radius: 50%;
+}
+
+.bread-behind {
+  position: absolute;
+  top: 2%;
+  left: 9%;
+  width: 78%;
+  height: 53%;
+  background: #cba231;
+  border: #f3c23f 8px solid;
+  -webkit-clip-path: circle(50% at 50% 100%);
+  clip-path: circle(50% at 50% 100%);
+}
+
+.bread-behind-copy {
+  position: absolute;
+  top: 4%;
+  left: -1%;
+  width: 100%;
+  height: 100%;
+  background: #f3c23f;
+  -webkit-clip-path: circle(50% at 50% 100%);
+  clip-path: circle(50% at 50% 100%);
+}
+
+.meat-1 {
+  position: absolute;
+  top: 44%;
+  left: 62%;
+  width: 17%;
+  height: 9%;
+  background: #a65c52;
+  border-bottom: #8f4731 8px solid;
+  border-radius: 47%;
+}
+
+.meat-2 {
+  position: absolute;
+  top: 38%;
+  left: 60%;
+  width: 17%;
+  height: 9%;
+  background: #a65c52;
+  border-bottom: #8f4731 8px solid;
+  border-radius: 47%;
+}
+
+.meat-3 {
+  position: absolute;
+  top: 34%;
+  left: 58%;
+  width: 17%;
+  height: 9%;
+  background: #a65c52;
+  border-bottom: #8f4731 8px solid;
+  border-radius: 47%;
+}
+
+.meat-4 {
+  position: absolute;
+  top: 44%;
+  left: 57%;
+  width: 17%;
+  height: 9%;
+  background: #a65c52;
+  border-bottom: #8f4731 8px solid;
+  border-radius: 47%;
+}
+
+.meat-5 {
+  position: absolute;
+  top: 47%;
+  left: 60%;
+  width: 17%;
+  height: 9%;
+  background: #a65c52;
+  border-bottom: #8f4731 8px solid;
+  border-radius: 47%;
+}
+
+.meat-6 {
+  position: absolute;
+  top: 31%;
+  left: 55%;
+  width: 17%;
+  height: 9%;
+  background: #a65c52;
+  border-bottom: #8f4731 8px solid;
+  border-radius: 47%;
+}
+
+.yogart-1 {
+  position: absolute;
+  top: 44%;
+  left: 65%;
+  width: 7%;
+  height: 12%;
+  background: #fcfcfc;
+  border-bottom: #c8c1c8 8px solid;
+  border-left: #c8c1c8 4px solid;
+  border-radius: 50%;
+}
+
+.yogart-2 {
+  position: absolute;
+  top: 36%;
+  left: 62%;
+  width: 7%;
+  height: 12%;
+  background: #fcfcfc;
+  border-bottom: #c8c1c8 8px solid;
+  border-left: #c8c1c8 4px solid;
+  border-radius: 50%;
+}
+
+.yogart-3 {
+  position: absolute;
+  top: 27%;
+  left: 59%;
+  width: 7%;
+  height: 12%;
+  background: #fcfcfc;
+  border-bottom: #c8c1c8 8px solid;
+  border-left: #c8c1c8 4px solid;
+  border-radius: 50%;
+}
+
+.greens-1 {
+  position: absolute;
+  top: 12%;
+  left: 49%;
+  width: 17%;
+  height: 32%;
+  background: #61c805;
+  border-bottom: #005300 8px solid;
+  border-radius: 50%;
+  -webkit-clip-path: polygon(79% 100%, 87% 84%, 75% 72%, 91% 57%, 91% 37%, 75% 22%, 65% 33%, 61% 11%, 49% 28%, 36% 17%, 37% 37%, 21% 18%, 10% 27%, 11% 59%, 13% 79%, 1% 86%, 4% 98%, 22% 100%);
+  clip-path: polygon(79% 100%, 87% 84%, 75% 72%, 91% 57%, 91% 37%, 75% 22%, 65% 33%, 61% 11%, 49% 28%, 36% 17%, 37% 37%, 21% 18%, 10% 27%, 11% 59%, 13% 79%, 1% 86%, 4% 98%, 22% 100%);
+}
+
+.greens-2 {
+  position: absolute;
+  top: 26%;
+  left: 51%;
+  width: 17%;
+  height: 32%;
+  background: #61c805;
+  border-bottom: #005300 8px solid;
+  border-radius: 50%;
+  -webkit-clip-path: polygon(68% 1%, 88% 13%, 79% 26%, 97% 50%, 86% 61%, 99% 83%, 92% 88%, 98% 97%, 86% 100%, 62% 100%, 49% 73%, 44% 37%, 39% 14%, 30% 0%);
+  clip-path: polygon(68% 1%, 88% 13%, 79% 26%, 97% 50%, 86% 61%, 99% 83%, 92% 88%, 98% 97%, 86% 100%, 62% 100%, 49% 73%, 44% 37%, 39% 14%, 30% 0%);
+}
+
+.greens-3 {
+  position: absolute;
+  top: 17.5%;
+  left: 26%;
+  width: 37%;
+  height: 42%;
+  background: #61c805;
+  border-bottom: #005300 8px solid;
+  border-radius: 50%;
+  -webkit-clip-path: polygon(1% 23%, 10% 0%, 23% 19%, 32% 7%, 41% 18%, 46% 4%, 56% 1%, 53% 16%, 81% 17%, 73% 8%, 84% 2%, 92% 0%, 92% 16%);
+  clip-path: polygon(1% 23%, 10% 0%, 23% 19%, 32% 7%, 41% 18%, 46% 4%, 56% 1%, 53% 16%, 81% 17%, 73% 8%, 84% 2%, 92% 0%, 92% 16%);
+}
+
+.tomato-1 {
+  position: absolute;
+  top: 28%;
+  left: 65%;
+  width: 3%;
+  height: 4%;
+  background: #fe2c35;
+  border-bottom: #b10000 4px solid;
+  border-left: #b10000 3px solid;
+  border-radius: 50%;
+}
+
+.tomato-2 {
+  position: absolute;
+  top: 25%;
+  left: 61%;
+  width: 3%;
+  height: 4%;
+  background: #fe2c35;
+  border-bottom: #b10000 4px solid;
+  border-left: #b10000 3px solid;
+  border-radius: 50%;
+}
+
+.tomato-3 {
+  position: absolute;
+  top: 21%;
+  left: 56%;
+  width: 3%;
+  height: 4%;
+  background: #fe2c35;
+  border-bottom: #b10000 4px solid;
+  border-left: #b10000 3px solid;
+  border-radius: 50%;
+}
+
+.tomato-4 {
+  position: absolute;
+  top: 21%;
+  left: 41%;
+  width: 3%;
+  height: 4%;
+  background: #fe2c35;
+  border-bottom: #b10000 4px solid;
+  border-left: #b10000 3px solid;
+  border-radius: 50%;
+}
+
+.tomato-5 {
+  position: absolute;
+  top: 22%;
+  left: 37%;
+  width: 3%;
+  height: 4%;
+  background: #fe2c35;
+  border-bottom: #b10000 4px solid;
+  border-left: #b10000 3px solid;
+  border-radius: 50%;
+}
+
+.tomato-6 {
+  position: absolute;
+  top: 21%;
+  left: 48%;
+  width: 3%;
+  height: 4%;
+  background: #fe2c35;
+  border-bottom: #b10000 4px solid;
+  border-left: #b10000 3px solid;
+  border-radius: 50%;
+}
+
+.potato-1 {
+  position: absolute;
+  top: 28%;
+  left: 45%;
+  width: 20%;
+  height: 3%;
+  background: #fbe96d;
+  border-bottom: #efb126 4px solid;
+  border-left: #efb126 3px solid;
+  border-radius: 50%;
+}
+
+.potato-2 {
+  position: absolute;
+  top: 48%;
+  left: 49%;
+  width: 20%;
+  height: 3%;
+  background: #fbe96d;
+  border-bottom: #efb126 4px solid;
+  border-left: #efb126 3px solid;
+  border-radius: 50%;
+}
+
+.potato-3 {
+  position: absolute;
+  top: 32%;
+  left: 47%;
+  width: 20%;
+  height: 3%;
+  background: #fbe96d;
+  border-bottom: #efb126 4px solid;
+  border-left: #efb126 3px solid;
+  border-radius: 50%;
+}
+
+.potato-4 {
+  position: absolute;
+  top: 42%;
+  left: 47%;
+  width: 20%;
+  height: 3%;
+  background: #fbe96d;
+  border-bottom: #efb126 4px solid;
+  border-left: #efb126 3px solid;
+  border-radius: 50%;
+}
+
+.potato-5 {
+  position: absolute;
+  top: 36%;
+  left: 44%;
+  width: 20%;
+  height: 3%;
+  background: #fbe96d;
+  border-bottom: #efb126 4px solid;
+  border-left: #efb126 3px solid;
+  border-radius: 50%;
+}
+
+.potato-6 {
+  position: absolute;
+  top: 39%;
+  left: 47%;
+  width: 20%;
+  height: 3%;
+  background: #fbe96d;
+  border-bottom: #efb126 4px solid;
+  border-left: #efb126 3px solid;
+  border-radius: 50%;
+}
+
+.potato-7 {
+  position: absolute;
+  top: 20%;
+  left: 52%;
+  width: 5%;
+  height: 23%;
+  background: #fbe96d;
+  border-bottom: #efb126 4px solid;
+  border-left: #efb126 3px solid;
+  border-radius: 50%;
+}
+
+.potato-8 {
+  position: absolute;
+  top: 20%;
+  left: 43%;
+  width: 5%;
+  height: 23%;
+  background: #fbe96d;
+  border-bottom: #efb126 4px solid;
+  border-left: #efb126 3px solid;
+  border-radius: 50%;
+}
+
+.potato-9 {
+  position: absolute;
+  top: 25%;
+  left: 51%;
+  width: 10%;
+  height: 3%;
+  background: #fbe96d;
+  border-bottom: #efb126 4px solid;
+  border-left: #efb126 3px solid;
+  border-radius: 50%;
+}
+
+.bread-front {
+  position: absolute;
+  top: -0.3%;
+  left: 12%;
+  width: 60%;
+  height: 60%;
+  background: #f3c23f;
+  -webkit-clip-path: circle(50% at 50% 100%);
+  clip-path: circle(50% at 50% 100%);
+}
+
+.bread-upper-line-1 {
+  position: absolute;
+  top: 88%;
+  left: 10%;
+  width: 30%;
+  height: 0.3%;
+  background: #cba231;
+  border-radius: 45%;
+}
+
+.bread-upper-line-2 {
+  position: absolute;
+  top: 90%;
+  left: 8%;
+  width: 30%;
+  height: 0.6%;
+  background: #cba231;
+  border-radius: 45%;
+}
+
+.bread-upper-line-3 {
+  position: absolute;
+  top: 92%;
+  right: 10%;
+  width: 30%;
+  height: 0.3%;
+  background: #cba231;
+  border-radius: 45%;
+}
+
+.bread-upper-line-4 {
+  position: absolute;
+  top: 96%;
+  right: 8%;
+  width: 30%;
+  height: 0.3%;
+  background: #cba231;
+  border-radius: 45%;
+}
+
+/* exactly the same as in the hamburger projest.
+I didn't change anything, I just deleted the ones that didn't dissapear */
+.sesame-small-3 {
+  position: absolute;
+  bottom: 15.5%;
+  left: 33%;
+  width: 2%;
+  height: 2%;
+  background: #fde9af;
+  border-radius: 48%;
+}
+
+.sesame-small-4 {
+  position: absolute;
+  bottom: 15.5%;
+  right: 33%;
+  width: 2%;
+  height: 2%;
+  background: #fde9af;
+  border-radius: 48%;
+}
+
+.sesame-small-7 {
+  position: absolute;
+  bottom: 32.5%;
+  left: 23%;
+  width: 2%;
+  height: 2%;
+  background: #fde9af;
+  border-radius: 48%;
+}
+
+.sesame-small-8 {
+  position: absolute;
+  bottom: 35.5%;
+  right: 26%;
+  width: 2%;
+  height: 2%;
+  background: #fde9af;
+  border-radius: 48%;
+}
+
+.sesame-small-10 {
+  position: absolute;
+  bottom: 12.5%;
+  right: 50%;
+  width: 2%;
+  height: 2%;
+  background: #fde9af;
+  border-radius: 48%;
+}
+
+.sesame-medium-3 {
+  position: absolute;
+  bottom: 27.5%;
+  left: 33%;
+  width: 3%;
+  height: 4%;
+  background: #fde9af;
+  border-radius: 48%;
+}
+
+.sesame-medium-4 {
+  position: absolute;
+  bottom: 25.5%;
+  right: 26%;
+  width: 3%;
+  height: 4%;
+  background: #fde9af;
+  border-radius: 48%;
+}
+
+.sesame-medium-5 {
+  position: absolute;
+  bottom: 37.5%;
+  left: 43%;
+  width: 3%;
+  height: 4%;
+  background: #fde9af;
+  border-radius: 48%;
+}
+
+.sesame-big-2 {
+  position: absolute;
+  top: 41.5%;
+  left: 46%;
+  width: 4%;
+  height: 5%;
+  background: #fde9af;
+  border-radius: 48%;
+}
+
+.sesame-big-3 {
+  position: absolute;
+  top: 65.5%;
+  left: 56%;
+  width: 4%;
+  height: 5%;
+  background: #fde9af;
+  border-radius: 48%;
+}
